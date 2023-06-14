@@ -1,0 +1,81 @@
+.section {
+    margin-top: 50px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
+.bottom {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.chart {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px;
+
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%
+}
+#pieChart {
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.list {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+
+.list ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: #333;
+}
+
+.list ul li {
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.card:before {
+    content: '\25CF';
+    color: rgb(255, 0, 0);
+    transition: color 0.8s;
+}
+
+.card:hover:before {
+    color: #ff0;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+  
